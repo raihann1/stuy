@@ -1,0 +1,86 @@
+/* .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+/* body {
+  text-align: center;
+} */
+
+h1,h2,p {
+  color: white;
+}
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+/* Global */
+/* html {
+  min-height: 100%;
+  overflow: auto;
+} */
+body {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Anonymous Pro", monospace;
+  background-color: rgb(25, 25, 25);
+}
+
+#title {
+  font-size: 70px;
+  line-height: 78px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+#contacttitle {
+  font-size: 70px;
+  line-height: 78px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.slogan {
+  font-size: 30px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+#me {
+  margin-left: auto;
+    margin-right: auto;
+  width: 55em;
+
+
+  vertical-align: middle;
+  text-align: center;
+}
